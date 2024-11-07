@@ -1,5 +1,12 @@
     @if($groupedData->count() > 0)
 	@if($groupedData)
+    <div class="d-md-flex justify-content-end">
+        <div class="">
+                <a class="nav-link d-inline-block ms-1" href="#" data-bs-toggle="modal" data-bs-target="#designstudiopopup"><img class="btn-hover-icon-data" src="{{asset('frontend-assets/images/ProjectDetails/gallery-add.svg')}}" style="width:25px;">&nbsp;Add</a>
+                <button class="nav-link d-inline-block ms-1 nav-filters-tab-data" id="nav-filters-tab"><img class="btn-hover-icon-data" src="{{asset('frontend-assets/images/ProjectDetails/Filter.svg')}}" style="">&nbsp;<span id="button-text-data">Filters</span></button>
+                <div class="ms-auto position-absolute end-0 mt-2" id="nav-filters"><div id="reportrange" class="text-nowrap" style="display: none;"><i class="fa fa-calendar" ></i>&nbsp;<span></span> <i class="fa fa-caret-down"></i></div>
+        </div>
+        </div></div>
 	@foreach($groupedData as $date => $mediaItems)
 	{{-- <h6>{{ $date }}</h6> --}}
 	<h6>{{ \Carbon\Carbon::parse($date)->format('m-d-Y') }}</h6>
@@ -57,6 +64,12 @@
 	@endif
 		</div>
 @else
+<div class="d-md-flex justify-content-between" style="padding-left: 85%;" >
+    <div class="">
+        <a class="nav-link d-inline-block ms-1" href="#" data-bs-toggle="modal" data-bs-target="#designstudiopopup"><img class="btn-hover-icon-data" src="{{asset('frontend-assets/images/ProjectDetails/gallery-add.svg')}}" style="width:25px;">&nbsp;Add</a>
+    </div>
+</div>
+
 <strong>No Data Found</strong>	
 @endif
 
