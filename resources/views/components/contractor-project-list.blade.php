@@ -234,19 +234,14 @@ input#testDatainfo {
 							</div>
 						
 
-							<div class="input-wrapper col-sm-12 col-md-9 col-lg-9 mb-3 mb-md-0">
+							<div class="input-wrapper col-sm-12 col-md-6 col-lg-6 mb-3 mb-md-0">
 								<div class="position-relative search-wrap">
 									<input type="text" id="title" placeholder="Project #, Customer Name, Email, Phone number" name="fromtitledate" value="{{ old('fromtitledate') }}" required>
-									{{-- <i class="fas fa-search search-icon"></i> --}}
-									<img class="search-icon" src="{{ asset('frontend-assets/images/contractorDashborad/search.svg')}}"/> 
+										<img src="{{asset('frontend-assets/images/contractorDashborad/search.svg')}}" class="search-icon"></img>
 								</div>
-								{{-- <div class="add-con-project">
-									<input type="button" id="testDatainfo" class="btn btn-sm btn-primary" value="Add">
-								</div> --}}
 							</div>
 
-
-							<div class="col-sm-12 col-md-3 col-lg-3 d-md-flex align-items-center justify-content-end" >
+							<div class="col-sm-12 col-md-6 col-lg-6 d-md-flex align-items-center justify-content-end" >
 								<div id="reportrange-dashboard" class="me-md-3" style="display: none">
 									<i class="fa fa-calendar" ></i>&nbsp;
 									<span></span> <i class="fa fa-caret-down"></i>
