@@ -306,9 +306,14 @@ p.p-not-found{margin:0;line-height:0}p.notes-pop{margin:0;font-size:14px;color:#
 												@endforeach
 											@endforeach
 											@else
+											<div class="d-md-flex justify-content-between" style="padding-left:85%">
+												<div class="">
+													<a class="nav-link d-inline-block ms-1" href="#" data-bs-toggle="modal" data-bs-target="#designstudiopopup"><img class="btn-hover-icon-data" src="{{asset('frontend-assets/images/ProjectDetails/gallery-add.svg')}}" style="width:25px;">&nbsp;Add</a>
+												</div>
+											</div>
 												<p class="p-not-found"><strong style="color:black">No Data Found</strong></p>
 											@endif
-								</div>
+								        </div>
 		             	   <!-- added -->
 
   												    

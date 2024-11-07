@@ -69,6 +69,8 @@ resources/views/components/contractor-dashboard-10-9-2024.blade.php
 public/report_style/*
 public/project_documents_laststage/*
 .env
+public/contractor_banner/*
+public/storage--/*
 # ****************************************************************
 
 
