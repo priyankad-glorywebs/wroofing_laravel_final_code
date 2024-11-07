@@ -1,0 +1,78 @@
+/public/build
+/public/hot
+/public/storage
+/vendor
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
+
+modified:   .gitignore
+modified:   composer.json
+modified:   composer.lock
+
+/public/build
+node_modules/
+package-lock.json
+# package.json
+
+laravel-reverb.yml
+node_modules/.bin/vite
+node_modules/.package-lock.json
+
+public/.htaccess
+
+public/uploads/*
+public/logos/*
+public/banners/*
+public/quote/*
+public/report_style/*
+
+public/frontend-assets/images/chat.svg
+public/frontend-assets/images/search.svg
+
+# public/frontend-assets/images/contractorDashborad/*
+# public/frontend-assets/images/ProjectDetails/*
+
+
+public/frontend-assets/images/contractorDashborad/*
+public/frontend-assets/images/ProjectDetails/*
+
+
+# date :23 oct 2024
+resources/views/layouts/front/projects/contractor/details.blade-today.php
+resources/views/layouts/front/projects/contractor/details-backup-3-9-24.blade.php
+resources/views/layouts/front/projects/contractor/details--====.blade.php
+resources/views/layouts/front/projects/contractor/details-12-spe-2024.blade.php
+resources/views/layouts/front/projects/contractor/details-10-09-2023.blade.php
+resources/views/layouts/front/projects/contractor/details-06-09-2024.blade.php
+resources/views/report-pdf-4-10-2024.blade.php
+app/Http/Controllers/Front/Contractor/ContractorController-backup.php
+public/frontend-assets/css/style3-oct-2024.css
+app/Jobs/ProcessProjectMediaContractor--queuejob.php
+public/frontend-assets/images/chat.svg
+public/frontend-assets/images/search.svg
+resources/views/layouts/front/projects/contractor/contractordashboard--olddd.blade.php
+resources/views/layouts/front/projects/contractor/contractordashboard---.blade.php
+resources/views/components/thank-you-component-29-sep-24.blade.php
+resources/views/components/inspection-section-working-03-oct-2024.blade.php
+resources/views/components/contractor-dashboard----.blade.php
+resources/views/components/contractor-dashboard-10-9-2024.blade.php
+public/report_style/*
+public/project_documents_laststage/*
+# ****************************************************************
+
+
+
+package.josn
+ecosystem.config.json
+public/company_logo
+public/customer_image
